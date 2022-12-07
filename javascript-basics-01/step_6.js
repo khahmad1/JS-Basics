@@ -1,8 +1,8 @@
-var num1 = parseInt(prompt("Enter first num "));
-var num2 = parseInt(prompt("Enter second num "));
-var remainder = num1 % num2;
-alert(`
-num1 : ${num1}
-num2 : ${num2}
-${remainder}
-`)
+var first = prompt("Your first number:")
+document.getElementById("first_number").value = first;
+var second = prompt("Your second number")
+document.getElementById("second_number").value = second;
+var sum = first % second;
+document.getElementById("validate").addEventListener("click", function() {
+    alert(sum);
+});
