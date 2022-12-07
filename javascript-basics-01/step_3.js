@@ -1,4 +1,3 @@
-var name="Ahmad";
-var surename="Kharma";
-var city="Tripoli";
+var name = prompt ("ENTER YOUR NAME ")
+
 alert(` Hello, ${name}`)
